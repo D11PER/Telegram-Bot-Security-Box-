@@ -1,7 +1,7 @@
 ﻿import random
 import telebot
 from telebot import types
-bot = telebot.TeleBot("8062836171:AAEktoWzS2es66Dz7KXYt4swFb3r60n0AbQ")
+bot = telebot.TeleBot("----")
 
 list_items = ['a','b','c','d','e','f',
         'z','g','v','1','2','3',
@@ -40,4 +40,5 @@ def get_text_massages(massage):
         take_items = random.randint(6,10)
         pass_word = random.choices(list_items, k=take_items)
         bot.send_message(massage.chat.id, f"Your Gmail password: {''.join(pass_word)}") 
+
 bot.polling(none_stop=True)
