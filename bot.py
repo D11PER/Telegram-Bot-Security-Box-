@@ -20,7 +20,7 @@ def start(message):
 
 
 @bot.message_handler(content_types=['text'])
-def get_text_massages(massage):
+def get_text_massages(message):
 
     if massage.text == 'Hi lets creat a password':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
