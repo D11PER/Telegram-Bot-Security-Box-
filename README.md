@@ -30,11 +30,10 @@ I have recently updated the bot to improve User Experience (UX) and provide more
 
 ## 📊 Project Evolution: Version Comparison
 
-1. **Clone the repository:**
-   ```bash| Feature | v1.0 (Basic) | v2.0 (Interactive) | v3.0 (Professional) |
-| :--- | :--- | :--- | :--- |
-| User Control | Fixed Randomness | Choice via Buttons | Dynamic Selection |
-| Length Logic | random.randint(7,12) | Hardcoded if/elif | Loops & Lists (Scalable) |
-| UX / Design | Plain Text | Basic Buttons | Markdown (Click-to-Copy) |
-| Code Quality | Repetitive | Structured | DRY (Clean & Modular) |
-| Commands | /start | /start, /length | Universal Handlers |
+| Feature | v1.0 (Basic) | v2.0 (Interactive) |
+| :--- | :--- | :--- |
+| User Control | Fixed Randomness | Choice via Buttons |
+| Length Logic | random.randint(7,12) | Hardcoded if/elif |
+| UX / Design | Plain Text | Basic Buttons |
+| Code Quality | Repetitive | Structured |
+| Commands | /start | /start, /length |
