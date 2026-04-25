@@ -14,7 +14,7 @@ list_items = ['a','b','c','d','e','f',
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    btn = types.KeyboardButton("Hi lets creat a password")
+    btn = types.KeyboardButton("OK")
     markup.add(btn)
     bot.send_message(message.chat.id, 'Hi lets creat a password', reply_markup=markup)
 
@@ -22,7 +22,7 @@ def start(message):
 @bot.message_handler(content_types=['text'])
 def get_text_massages(message):
 
-    if massage.text == 'Hi lets creat a password':
+    if massage.text == 'OK':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         btn1 = types.KeyboardButton("Telegram Password")
         btn2 = types.KeyboardButton("Gmail Password")
