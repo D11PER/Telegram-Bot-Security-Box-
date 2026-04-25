@@ -42,8 +42,9 @@ I have recently updated the bot to improve User Experience (UX) and provide more
 
 I'm constantly working to make this bot better. Here is what's coming next:
 
-- [ ] **Password Strength Analysis:** Adding a visual indicator to show if a password is weak, medium, or strong.
-- [ ] **Custom Characters:** Buttons to toggle symbols on/off.
-- [ ] **Expiration Timer:** Passwords that delete themselves from the chat after 60 seconds.
-- [ ] **Security Fixes:** Moving the Bot Token to `.env` files for better safety.
-- [ ] **Advanced GUI:** Transitioning from `ReplyKeyboardMarkup` to `InlineKeyboardMarkup` (buttons under messages).
+### 🚀 Roadmap / Future Updates
+
+| Status | Feature | Description |
+| :--- | :--- | :--- |
+| ⏳ Planned | Strength Meter | Analyze how secure the generated password is. |
+| ⏳ Planned | Multi-Language Support | Support for Ukrainian, Germany, Spanish and other languages. |
