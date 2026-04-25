@@ -44,7 +44,7 @@ I'm constantly working to make this bot better. Here is what's coming next:
 
 ### 🚀 Roadmap / Future Updates
 
-| Status | Feature | Description |
-| :--- | :--- | :--- |
-| ⏳ Planned | Strength Meter | Analyze how secure the generated password is. |
-| ⏳ Planned | Multi-Language Support | Support for Ukrainian, Germany, Spanish and other languages. |
+| Status | Feature | Description | Progress |
+| :--- | :--- | :--- | :---: |
+| ⏳ Planned | Strength Meter | Analyze how secure the generated password is. | [░░░░░░░░░░] |
+| ⏳ Planned | Multi-Language Support | Support for 🇺🇦 Ukrainian, 🇩🇪 German and other languages. | [░░░░░░░░░░] |
