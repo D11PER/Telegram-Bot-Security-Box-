@@ -31,8 +31,7 @@ I have recently updated the bot to improve User Experience (UX) and provide more
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
- Feature,v1.0 (Basic),v2.0 (Interactive),v3.0 (Professional)
+   ```bashFeature,v1.0 (Basic),v2.0 (Interactive),v3.0 (Professional)
 User Control,Fixed Randomness,Choice via Buttons,Dynamic Selection
 Length Logic,"random.randint(7,12)",Hardcoded if/elif,Loops & Lists (Scalable)
 UX / Design,Plain Text,Basic Buttons,Markdown (Click-to-Copy)
