@@ -1,20 +1,35 @@
-# Telegram-Bot-Security-Box-
-A simple Python Telegram bot that uses the Telegram Bot API to handle commands and text messages, create interactive reply keyboards, and generate random passwords of varying lengths with letters, numbers, and symbols. A learning project blending Python logic with Telegram features.
+# Telegram Password Generator Bot 🔐
 
-# 🔐 Telegram Password Generator Bot
+A simple yet effective Telegram bot built with `pyTelegramBotAPI` that generates secure, random passwords for various platforms.
 
-A simple Telegram bot built with **Python** and **pyTelegramBotAPI (TeleBot)**.  
-The bot generates random passwords for different services (Telegram, Gmail) with customizable length and characters.
+## 🚀 Evolution: What's New?
 
-## 📂 Project Structure
-- `bot.py` — main bot script
-- Dependencies: `telebot`, `random`
+I have recently updated the bot to improve User Experience (UX) and provide more customization.
 
-## ✨ Features
-- `/start` command initializes the bot and shows a custom keyboard.
-- Interactive menu with options:
-  - **Telegram Password** — generates a random password (7–12 characters).
-  - **Gmail Password** — generates a random password (6–10 characters).
-- Passwords include letters, numbers, and symbols.
-- Simple and beginner‑friendly code structure.
+### New Version (v2.0) - *Latest Update*
+* **User-Controlled Length:** Instead of random length, users can now specifically choose between 7, 8, 9, or 10 characters.
+* **Advanced Navigation:** Improved `ReplyKeyboardMarkup` menus for a smoother flow.
+* **New Commands:** Added `/length` command for quick access to password settings.
+* **Optimized Logic:** Refined message handlers to support a step-by-step selection process.
 
+### Old Version (v1.0)
+* Generated passwords based on a fixed random range (e.g., 7-12 characters).
+* Basic interaction: Only two buttons (Telegram/Gmail) with immediate results.
+
+---
+
+## 🛠 Features
+* **Instant Generation:** Get a password in two clicks.
+* **Diverse Character Set:** Includes lowercase letters, numbers, and special symbols (`@`, `#`, `%`, `$`, `!`).
+* **Platform Specific:** Logic separates requests for Telegram and Gmail passwords.
+
+## 💻 Tech Stack
+* **Language:** Python 3.x
+* **Library:** [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
+* **Randomization:** Python `random` module
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
