@@ -1,10 +1,8 @@
-# Telegram Password Generator Bot 🔐
-
-A simple yet effective Telegram bot built with `pyTelegramBotAPI` that generates secure, random passwords for various platforms.
-
-# Password-Gen-Showcase in Telegram 🤖
+## Password-Gen-Showcase in Telegram 🤖
 Telegram Bot: @passwriter_bot
 
+## Telegram Password Generator Bot 🔐
+A simple yet effective Telegram bot built with `pyTelegramBotAPI` that generates secure, random passwords for various platforms.
 ## 🚀 Evolution: What's New?
 
 I have recently updated the bot to improve User Experience (UX) and provide more customization.
